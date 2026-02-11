@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ocean Why I Choose You</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="ocean-bg" aria-hidden="true">
+      <div class="aurora"></div>
+      <div class="bubbles" id="bubbles"></div>
+    </div>
+
+    <main class="app-card">
+      <header>
+        <p class="kicker">✨ Why I Choose You</p>
+        <h1 id="nameGlow" class="name-glow">Akansha</h1>
+        <p class="nickname">shrimati ji</p>
+      </header>
+
+      <section class="generator">
+        <button id="reasonButton" class="btn btn-primary" type="button">Tell me why.</button>
+        <p class="click-count" id="clickCount">Clicks: 0</p>
+        <p id="reasonOutput" class="message" aria-live="polite"></p>
+        <p id="finalMessage" class="message final" aria-live="polite"></p>
+      </section>
+
+      <footer class="actions">
+        <button id="copyFinalBtn" class="btn btn-secondary" type="button">Copy final message</button>
+      </footer>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
